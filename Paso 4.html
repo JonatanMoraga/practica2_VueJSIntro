@@ -1,0 +1,24 @@
+# practica2_VueJSIntro
+<center>
+
+    <div class="container">
+    <div style="text-align: center  center;width: 600px;">
+       <center> <h3 style="color: rgb(128, 0, 17) ; ">
+                    Nombres de los integrantes
+        </h3>
+       
+   </div>
+  
+   <div v-html="message"  id="app"> </div>
+     
+       <script>
+          var app = new Vue({
+             el: '#app',
+            data: {
+            message:  '<h2> <center>Nombre de integrante. Erick Elian Guillen Gomez  '+     
+                    '<br>Nombre de integrante. Jonatan Josué Moraga Ramos </span>'+'</h2>'
+            }
+        })
+        </script></center>
+    <hr>
+    <hr>
